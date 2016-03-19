@@ -13,6 +13,11 @@
 	  color: #000000;
 	  font-size: 25px;
 	}
+	.navbar-default {
+	  display: inline-block;
+	  float: none;
+	  vertical-align: top;
+	}
 	img {
 	  display: block;
 	  margin: 0 auto;
@@ -23,21 +28,23 @@
 </style>
 </head>
 <body>
-  <div class="container-fluid">
-    <nav class="navbar-default bgcolor">
-      <p class="navbar-text"><a href="#"><span>Home</span></a></p>
-      <p class="navbar-text"><a href="#"><span>Services</span></a></p>
-      <p class="navbar-text"><a href="#">About Me</a></p>
-	  <p class="navbar-text"><a href="#">Released</a></p>
-	  <p class="navbar-text"><a href="#">A look Through 'my' eyes</a></p>
-	  <p class="navbar-text"><a href="#">For Sale</a></p>
-	  <p class="navbar-text"><a href="#">2nd Hand</a></a></p>
-	  <p class="navbar-text"><a href="#">Contact</a></p>
-	</nav>
-  </div>
-  <div id="main_page" class="row-fluid bgcolor">
-    <img class="img-responsive" src="http://ikme.diamonds/afbeeldingen/index%20afbeelding2.png">
-  </div>
-  <div class="footer bgcolor" id="footer">Exclusive Jewelry by IKME</div>
+	<div class="container-fluid">
+		<nav class="bgcolor">
+			<ul class="nav nav-justified">
+				<li class="active"><a href="#">Home</a></li>
+				<li><a href="#">Services</a></li>
+				<li><a href="#">About Me</a></li>
+				<li><a href="#">Released</a></li>
+				<li><a href="#">A look through 'my' eyes</a></li>
+				<li><a href="#">For Sale</a></li>
+				<li><a href="#">2nd Hand</a></li>
+			<li><a href="#">Contact</a></li>
+			</ul>
+		</nav>
+	</div>
+	<div id="main_page" class="row-fluid bgcolor">
+		<img class="img-responsive" src="http://ikme.diamonds/afbeeldingen/index%20afbeelding2.png">
+	</div>
+	<div class="footer bgcolor" id="footer">Exclusive Jewelry by IKME</div>
 </body>
 </html>
